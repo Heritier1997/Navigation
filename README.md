@@ -1,6 +1,6 @@
 # Project overview
 
-This project was really difficult. I'm glad I got tested on this.
+This project was really challenging. I'm glad I got tested on this.
 
 I spent about **2hrs a day** (Tuesday-Thursday) after coming home from work.
 
