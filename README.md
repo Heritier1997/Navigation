@@ -12,4 +12,4 @@ I have also included a video.
 
 Note: You may need a server (locahost) to run the project to read the json file.
 
-**I REALLY APOLOGIZE IF MY UNDERSTANDING OF THE PROJECT WAS WRONG.**# Navigation
+**I REALLY APOLOGIZE IF MY UNDERSTANDING OF THE PROJECT WAS WRONG.**
