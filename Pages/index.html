@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/main.css">
+    <meta name="author" content="Heritier Otiom">
+    <meta name="date" content="05-31-2022 2:45PM">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Navigation</title>
+</head>
+
+<body>
+
+    <div id="section">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="campus">Campus:</label>
+                <select id="campus" name="campus">
+                    <option value="none"></option>
+                    <option value="university">University</option>
+                    <option value="denver-ce">Denver-CE</option>
+                    <option value="grad">Grad</option>
+                    <option value="online">Online</option>
+                    <option value="providence-ce">Providence_CE</option>
+                    <option value="providence">Providence</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="path">Path:</label>
+                <input type="text" name="path" id="path" placeholder="Path" />
+            </div>
+            
+            <div class="form-group">
+                <input type="button" id="btn" value="Get data" />
+            </div>
+        </form>
+    </div>
+
+    <!-- The navigation bar will be generated here -->
+    <div id="app" class="menu__bar">
+        
+        <ul id="ul" class="navbar">
+            
+        </ul>
+
+    </div>
+    <!-- end of the navigation bar -->
+
+    <script src="../Js/index.js"></script>
+
+</body>
+
+</html>
